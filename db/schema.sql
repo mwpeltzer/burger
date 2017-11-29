@@ -1,4 +1,3 @@
-### Schema
 DROP DATABASE IF EXISTS burgers_db;
 
 CREATE DATABASE burgers_db;
@@ -13,3 +12,4 @@ CREATE TABLE burgers
 	date DATETIME NOT NULL,
 	PRIMARY KEY (id)
 );
+
